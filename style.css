@@ -74,6 +74,9 @@ h1 {
 .subtext {
   color: #E5E7EB;
   font-size: 18px;
+}
+
+.mg-16 {
   margin-bottom: 16px;
 }
 
@@ -95,6 +98,7 @@ button {
   padding: 8px 24px;
   border-radius: 8px;
   border: none;
+  flex-shrink: 0;
 }
 button.btn-main {
   background-color: #3882F6;
@@ -165,4 +169,33 @@ p.quote {
   font-size: 24px;
   font-weight: bold;
   text-align: right;
+}
+
+.section {
+  padding: 50px 32px;
+}
+
+.cta-container {
+  box-sizing: content-box;
+  max-width: 968px;
+  margin: 0 auto;
+  padding: 50px 100px;
+  background-color: #3882F6;
+  border-radius: 16px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h3 {
+  color: #FAF9F8;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.footer {
+  background-color: #1F2937;
+  text-align: center;
+  padding: 35px 32px;
 }
