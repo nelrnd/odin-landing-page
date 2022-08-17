@@ -143,3 +143,26 @@ h2 {
   border: solid 4px #3882F6;
   border-radius: 16px;
 }
+
+div.quote {
+  background-color: #E5E7EB;
+  padding: 75px 0;
+}
+.quote-section {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 32px;
+}
+p.quote {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: light;
+  font-style: italic;
+  margin-bottom: 16px;
+}
+.author {
+  color: #1F2937;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: right;
+}
