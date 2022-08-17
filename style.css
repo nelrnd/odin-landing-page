@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Roboto:ital,wght@0,400;0,700;0,900;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300&display=swap');
 
 * {
   margin: 0;
@@ -19,7 +19,8 @@ body {
 .header-content {
   max-width: 1200px;
   height: 80px;
-  margin: auto;
+  margin: 0 auto;
+  padding: 32px;
 
   display: flex;
   align-items: center;
@@ -44,4 +45,52 @@ body {
   text-decoration: none;
   padding: 8px;
   display: inline-block;
+}
+
+.hero {
+  padding: 100px 0;
+}
+
+.hero-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 32px;
+
+  display: flex;
+  gap: 64px;
+}
+
+.hero-container > div {
+  flex: 1;
+}
+
+h1 {
+  color: #F9FAF8;
+  font-size: 48px;
+  font-weight: black;
+  margin-bottom: 24px;
+}
+
+.subtext {
+  color: #E5E7EB;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.img-container {
+  background-color: grey;
+  width: 100%;
+  height: 100%;
+}
+
+button {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 8px 24px;
+  border-radius: 8px;
+  border: none;
+}
+button.btn-main {
+  background-color: #3882F6;
 }
